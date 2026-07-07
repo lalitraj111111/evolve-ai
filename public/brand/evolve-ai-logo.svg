@@ -1,0 +1,26 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EVOLVE AI">
+  <rect width="720" height="220" rx="36" fill="#07090d"/>
+  <defs>
+    <linearGradient id="gold" x1="48" y1="34" x2="274" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset="0.35" stop-color="#f4bf3a"/>
+      <stop offset="0.72" stop-color="#9b6814"/>
+      <stop offset="1" stop-color="#ffd86b"/>
+    </linearGradient>
+    <linearGradient id="textGold" x1="214" y1="85" x2="550" y2="135" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9d56a"/>
+      <stop offset="0.45" stop-color="#bf8125"/>
+      <stop offset="1" stop-color="#fff4c4"/>
+    </linearGradient>
+  </defs>
+  <path d="M150 42c-47 8-83 49-83 98 0 29 13 56 33 74" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M91 180c25 26 64 36 100 24 30-10 54-34 65-64" stroke="#f7f7f7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M238 91l36 50-60 7 24-57z" fill="url(#gold)"/>
+  <path d="M154 62c14 0 25 11 25 25s-11 25-25 25-25-11-25-25 11-25 25-25z" fill="url(#gold)"/>
+  <path d="M148 104l-22 40-21 30 17 13 28-31 18-29 19 24 5 41 22-3-2-48-28-37h-36z" fill="url(#gold)"/>
+  <path d="M170 60l17-35c4-7 15-3 14 5l-8 43-23-13z" fill="url(#gold)"/>
+  <path d="M119 126l-31 9 5 18 35-7-9-20z" fill="url(#gold)"/>
+  <text x="310" y="120" fill="url(#textGold)" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="2">EVOLVE</text>
+  <text x="574" y="120" fill="#f8fafc" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900">AI</text>
+  <text x="312" y="154" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">EVOLVE TODAY, EMPOWER TOMORROW</text>
+</svg>

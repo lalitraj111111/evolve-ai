@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #11131a;
+}
+
+.dark body {
+  background: #090b10;
+  color: #f8fafc;
+}
+
+@layer components {
+  .glass-panel {
+    @apply border border-white/60 bg-white/80 shadow-soft backdrop-blur-xl dark:border-white/10 dark:bg-white/10;
+  }
+
+  .primary-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-lg dark:bg-white dark:text-ink;
+  }
+
+  .secondary-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:shadow-md dark:border-white/10 dark:bg-white/10 dark:text-white;
+  }
+
+  .field {
+    @apply w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-ink outline-none transition focus:border-electric focus:ring-4 focus:ring-electric/10 dark:border-white/10 dark:bg-white/10 dark:text-white;
+  }
+}
